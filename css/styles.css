@@ -118,6 +118,14 @@ footer a{
     color: #1a4766;
     text-decoration: none;
 }
+.resume a:hover{
+    color: #12cbad;
+    text-decoration: none;
+}
+.resume a:active{
+    color: #1a4766;
+    text-shadow: 2px 2px #fff;
+}
 
 .resume h1{
     padding: 3px;
@@ -143,6 +151,35 @@ footer a{
     margin-left: 26px;
    
 }
+
+/*------------- CONTACT -------------*/
+label, input{
+    display: block;
+    font-size: 2em;
+}
+
+label{
+    padding-top: 60px;
+}
+
+form{
+    background: #ccc;
+    width: 40%;
+    margin: auto;
+    padding: 60px;
+}
+input[type="submit"]{
+    margin-top: 20px;
+    border-radius: 6px;
+    padding: 8px;
+    background: #12cbad;
+    color: #fff;
+}
+textarea{
+    padding: 6px;
+}
+
+
 
 /* --- Media Queries --- */
 @media screen and (max-width: 660px){

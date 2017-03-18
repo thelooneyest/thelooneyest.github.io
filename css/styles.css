@@ -1,34 +1,180 @@
-h1{
-    font-size: 42px;
-    font-family: 'Pacifico', sans-serif;
-    color:cadetblue;
-    padding: 0;
-    margin: 0;
+@import url('https://fonts.googleapis.com/css?family=Antic|Montserrat|Shrikhand');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
 }
-.jobtitle{
-    font-size: 20px;
-    font-family: sans-serif;
-    padding: 10px;
-    margin: 0;
+
+header{
+    display: flex;
+    justify-content: center;
+/*    align-items: flex-end;*/
+    flex-wrap: wrap;
+/*    flex-direction: column;*/
+    max-width: 1000px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 5px;
 }
-.infoblock{
-    border-bottom: solid lightgray 2px;
-    padding-top: 6px;
-    padding-bottom: 7px;
-    max-width: 800px;
+
+
+main{
+    background: #ccc;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 15px;
+    height: auto;
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    justify-content: center;
+    
 }
-li{
+nav{
+    background: #1a4766;
+/*    width: 100%;*/
+    
+}
+
+nav li{
     list-style-type: none;
-    font-family: sans-serif;
+    padding: 5px 0;
+    background: #1a4766;
+    display: inline-block;
 }
 
-a{
+
+nav li a{
+  text-decoration: none;
+    color: #12cbad;
+    font-size: 2em;
+    padding: 4px;
+    margin-left: 5px;
+/*    display: inline-block;*/
+}
+
+section{
+    width: 46%;
+    height: 300px;
+    margin: 10px;
+}
+
+footer{
+    background: #92afdc;
+    height: 6em;
+}
+
+footer ul{
+    text-align: center;
+    padding: 20px;
+}
+
+footer li{
+  list-style-type: none;
+  padding: 5px 0;
+  display: inline-block;
+}
+
+footer a{
     text-decoration: none;
-    color: darkcyan;
-    font-weight: bold;
+    color: #12cbad;
+    font-size: 1.5em;
+    padding: 8px;
+/*  display: inline-block;*/
 }
 
-img{
-    width: 50%;
-    height: 50%;
+
+/*--- HOMEPAGE ---*/
+#homepage section p{
+    background: #92afdc;
+    font-size: .85em;
+    
+}
+
+#homepage section img{
+    width: 100%;
+}
+
+
+/*--- RESUME ---*/
+.resume section{
+    width: 100%;
+    margin: 0;
+    height: auto;
+    padding: 10px 0;
+}
+
+.resume section:nth-child(odd){
+    background: #12cbad;
+}
+
+.resume{
+    color: #1a4766;
+    background: #92afdc;
+}
+.resume a{
+    color: #1a4766;
+    text-decoration: none;
+}
+
+.resume h1{
+    padding: 3px;
+    background: #1a4766;
+/*    margin-top: 16px;*/
+    color: #12cbad;
+}
+
+.resume h2{
+/*    margin-top: 6px;*/
+    margin-left: 16px;
+    background: #12cbad;
+    width: 60%;
+    border-radius: 10px;
+    padding: 4px 0 4px 12px;
+}
+
+.resume h3{
+    margin-left: 16px;
+}
+
+.resume h4{
+    margin-left: 26px;
+   
+}
+
+/* --- Media Queries --- */
+@media screen and (max-width: 660px){
+
+    header,
+    main{
+        width: 100%;
+    }
+    
+    section{
+        width: 100%;
+        flex-direction: column;
+    }
+    nav li{
+      border-bottom: 1px solid #fff;
+      list-style-type: none;
+      box-shadow: 0px 0px 4px #ccc;
+      padding: 5px 0;
+      display: block;
+    }
+    header{
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (max-width: 800px){
+    a{
+  text-decoration: none;
+    color: #12cbad;
+    font-size: 1.6em;
+    padding: 4px;
+    margin-left: 5px;
+}
 }

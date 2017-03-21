@@ -67,7 +67,7 @@ header img{
 
 }
 main{
-    background: #ccc;
+/*    background: #ccc;*/
     width: 80%;
     margin: auto;
     margin-bottom: 15px;
@@ -278,7 +278,7 @@ textarea{
 /* Thumb */
 figure{
     background: #92afdc;
-    width: 16em;
+    width: 13em;
     padding: 8px;
     margin: 28px 8px 0 8px;
     border-radius: 8px;
@@ -303,7 +303,7 @@ figcaption{
 
 /* Overlay Styling*/
   position: absolute;
-  background: rgba(0, 0, 0, .7);
+  background: rgba(53, 96, 74, .88);
   height: 100%;
   width: 100%;
   top: 0;
@@ -342,4 +342,8 @@ figcaption{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+}
+.overlay h2{
+    color: #fff;
+    
 }

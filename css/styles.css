@@ -141,10 +141,9 @@ footer li{
 
 footer a{
     text-decoration: none;
-    color: #12cbad;
+    color: #1a4766;
     font-size: 1.5em;
     padding: 8px;
-/*  display: inline-block;*/
 }
 
 
@@ -165,7 +164,8 @@ footer a{
     width: 100%;
     margin: 0;
     height: auto;
-    padding: 10px 0;
+    padding-bottom: 8px;
+    
 }
 
 .resume section:nth-child(odd){
@@ -175,6 +175,7 @@ footer a{
 .resume{
     color: #1a4766;
     background: #92afdc;
+    border-radius: 8px;
 }
 .resume a{
     color: #1a4766;
@@ -192,32 +193,41 @@ footer a{
 .resume h1{
     padding: 3px;
     background: #1a4766;
-/*    margin-top: 16px;*/
     color: #12cbad;
+    font-size: 1.4em;
+    text-transform: uppercase;
+}
+
+.topline{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
 .resume h2{
-/*    margin-top: 6px;*/
     margin-left: 16px;
-/*    background: #12cbad;*/
     width: 60%;
     border-radius: 10px;
     padding: 4px 0 4px 12px;
+    font-size: 1.1em;
 }
 
 .resume h3{
-    margin-left: 16px;
+    margin-left: 32px;
+    font-size: .9em;
 }
 
 .resume h4{
     margin-left: 26px;
-   
+    font-size: .88em;
+    width: 75%;
 }
 
-/*------------- CONTACT -------------*/
+
+/*--------------------------- CONTACT -----------------------*/
 label, input{
     display: block;
     font-size: 2em;
+    width: 85%;
 }
 
 label{
@@ -225,10 +235,9 @@ label{
 }
 
 form{
-    background: #ccc;
+/*    background: #ccc;*/
     width: 40%;
-/*    margin: auto;*/
-    padding: 60px;
+    padding: 30px;
 }
 input[type="submit"]{
     margin-top: 20px;
@@ -247,35 +256,9 @@ textarea{
     flex-direction: row;
 }
 
-
-/* ----------------- Media Queries -------------------- */
-@media screen and (max-width: 660px){
-
-    header,
-    main{
-        width: 100%;
-    }
-    
-    section{
-        width: 100%;
-        flex-direction: column;
-    }
-    nav li{
-      border-bottom: 1px solid #fff;
-      list-style-type: none;
-      box-shadow: 0px 0px 4px #ccc;
-      padding: 5px 0;
-      display: block;
-    }
-    header{
-        flex-direction: column;
-    }
-    
+#contact section{
+    height: auto;
 }
-
-
-
-
 
 
 
@@ -356,15 +339,57 @@ figcaption{
 
 /*----------- MEDIA QUERIES ---------------*/
 
+@media screen and (max-width: 660px){
+
+    header,
+    main{
+        width: 100%;
+    }
+    
+    section{
+        width: 100%;
+        flex-direction: column;
+    }
+    nav li{
+      border-bottom: 1px solid #fff;
+      list-style-type: none;
+      box-shadow: 0px 0px 4px #ccc;
+      padding: 5px 0;
+      display: block;
+    }
+    header{
+        flex-direction: column;
+    }
+        footer a{
+    text-decoration: none;
+    color: #1a4766;
+    font-size: 1.1em;
+    padding: 8px;
+}
+    
+}
+
 @media screen and (max-width: 800px){
     a{
   text-decoration: none;
     color: #12cbad;
     font-size: 1.6em;
-/*
+}
+    
+    label, input{
+        display: block;
+        font-size: 1.2em;
+        width: 85%;
+    }
+    
+    
+nav li a{
+    text-decoration: none;
+    color: #12cbad;
+    font-size: 1.6em;
     padding: 4px;
     margin-left: 5px;
-*/
+/*    display: inline-block;*/
 }
     
     header h1{
@@ -380,11 +405,17 @@ figcaption{
     font-family: 'Shrikhand';
     color: #92afdc;
     text-shadow: 5px -5px 1px #35604a,
-                 -5px 5px 1px #1a4766
-        
-        ;
+                 -5px 5px 1px #1a4766;
 /*    animation: springup 1s 1s;*/
 }
+    
+    footer a{
+    text-decoration: none;
+    color: #1a4766;
+    font-size: 1.1em;
+    padding: 8px;
+}
+    
     
 }
 

@@ -55,6 +55,12 @@ main{
     
 }
 
+section{
+    width: 46%;
+    height: 300px;
+    margin: 10px;
+}
+
 /*------------------ TOP NAVIGATION ------------------*/
 nav{
     background: #1a4766;
@@ -83,12 +89,8 @@ nav li a{
     margin-left: 5px;
 }
 
-section{
-    width: 46%;
-    height: 300px;
-    margin: 10px;
-}
 
+/*------------------ FOOTER ------------------*/
 footer{
     background: #92afdc;
     height: 6em;

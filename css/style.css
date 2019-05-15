@@ -5,7 +5,6 @@
 
 .wrapper{
     display: flex;
-    background: yellow;
     flex-wrap: wrap;
 }
 
@@ -81,7 +80,6 @@
     color: #258322;
     font: bold 2.3em/1.5em 'Quicksand', sans-serif;
     max-width: 625px;
-    margin-right: 80px;
     text-align: center;
 }
 
@@ -143,7 +141,7 @@
     font: 1em 'Quicksand', sans-serif;
     margin: 16px;
     width: 40%;
-/*    height: 480px;*/
+    max-height: 468px;
     max-width: 380px;
     box-shadow: 1px 1px 3px 1px rgba(40, 55, 55, .2);
 }
@@ -475,7 +473,7 @@ nav ul a {
 /*    font-weight: 500;*/
 }
 nav ul a:hover {
-  color: #903749;
+  color: #258322;
 }
 nav li {
   display: inline-block;
@@ -491,42 +489,109 @@ nav .navwrapper {
   display: flex;
   justify-content: space-between;
 }
+
+
+/*---------------------------MOBILE SCREEN---------------------------*/
+
 @media screen and (max-width: 768px) {
+    
+    .logo img {
+    width: 8em;
+    margin: 10px;
+}
+    
+    
+    .headtitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+    
+    .headtitle h1 {
+    color: white;
+    font: bold 3.5em 'Quicksand', sans-serif;
+}
+
+.headtitle h2 {
+    color: #006875;
+    font: 2em 'Quicksand', sans-serif;
+    margin: -10px 0 18px 0;
+}
+    
+.headtitle h3 {
+    color: #bcffcb;
+    font: 1.4em 'Quicksand', sans-serif;
+}
+    
+.portfolio-text h1 {
+    color: white;
+    font: bold 3em/1.5em 'Quicksand', sans-serif;
+    text-align: center;
+}
+    
+    
+.project3 h3 {
+    color: #00b5ce;
+    background: rgba(255, 255, 255, 0.6);
+    width: 100%;
+    text-align: center;
+    font-size: 1.8em;
+    padding: 20px 0;
+}
+    
+#bio img {
+    justify-content: center;
+    border-radius: 50%;
+    width: 33%;
+    border: 6px solid white;
+    margin: 0.5em;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
   nav nav ul a {
-    color: #53354A;
+    color: white;
   }
   nav ul {
-    background-color: #E84545;
+    background-color: #a9db79;
     display: block;
     height: 0;
     list-style-type: none;
     opacity: 0;
     text-align: center;
-    transition: all 1s ease;
+/*    transition: all 1s ease;*/
     width: 100%;
     visibility: hidden;
   }
-  nav li {
-    border-bottom: 2px solid #53354A;
-    color: #53354A;
+nav li {
+    border-bottom: 2px solid white;
+    /* color: #53354A; */
     display: block;
     font-size: 1.5em;
     padding: 2em 0;
-  }
+}
   nav #menu-toggle:checked ~ ul {
     opacity: 1;
-    height: 100vh;
+    height: 63vh;
     visibility: visible;
   }
-  nav .label-toggle {
-    background: linear-gradient(to bottom, #E84545 0%, #E84545 20%, transparent 20%, transparent 40%, #E84545 40%, #E84545 60%, transparent 60%, transparent 80%, #E84545 80%, #E84545 100%);
+nav .label-toggle {
+    background: linear-gradient(to bottom, #ffffff 0%, #ffffff 20%, transparent 20%, transparent 40%, #ffffff 40%, #ffffff 60%, transparent 60%, transparent 80%, #ffffff 80%, #ffffff 100%);
     cursor: pointer;
     display: block;
     float: right;
-    height: 35px;
+    height: 40px;
     margin-top: 1em;
-    width: 35px;
-  }
+    width: 48px;
+}
   nav .navwrapper {
     display: block;
   }

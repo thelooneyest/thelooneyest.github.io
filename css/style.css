@@ -648,5 +648,32 @@ nav .label-toggle {
 .contact-text{
         font: bold 1.2em 'Quicksand', sans-serif;
     }
+
+.project-description {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 90%;
+    padding-left: 15px;
+}
+ 
+.project-profile{
+    width: 95%;
+    margin: 10px;
+}
+
+.profile-title h1 {
+    color: #71bb80;
+    font: bold 2em/1.1em 'Quicksand', sans-serif;
+    text-align: center;
+}
+    
+.project-profile img {
+    display: flex;
+    width: 80%;
+    margin: 6px;
+}
     
 }

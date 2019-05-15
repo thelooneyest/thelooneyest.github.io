@@ -494,21 +494,33 @@ nav .navwrapper {
 /*---------------------------MOBILE SCREEN---------------------------*/
 
 @media screen and (max-width: 768px) {
-    
-    .logo img {
-    width: 8em;
-    margin: 10px;
+
+.logo img {
+    width: 8.6em;
+    margin: 10px 0px -53px 11px;
 }
     
+.logo {
+    display: inline-block;
+    height: 4.5em;
+    margin: 1em 0;
+    width: 45px;
+}
     
-    .headtitle {
+.header {
+    width: 100%;
+    background: #00b5ce;
+    padding: 165px 6px 50px 6px;
+}
+    
+.headtitle {
     display: flex;
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
 }
     
-    .headtitle h1 {
+.headtitle h1 {
     color: white;
     font: bold 3.5em 'Quicksand', sans-serif;
 }
@@ -560,6 +572,7 @@ nav .navwrapper {
   nav nav ul a {
     color: white;
   }
+    
   nav ul {
     background-color: #a9db79;
     display: block;
@@ -567,22 +580,23 @@ nav .navwrapper {
     list-style-type: none;
     opacity: 0;
     text-align: center;
-/*    transition: all 1s ease;*/
     width: 100%;
     visibility: hidden;
   }
+    
 nav li {
     border-bottom: 2px solid white;
-    /* color: #53354A; */
     display: block;
     font-size: 1.5em;
     padding: 2em 0;
 }
+    
   nav #menu-toggle:checked ~ ul {
     opacity: 1;
     height: 63vh;
     visibility: visible;
   }
+    
 nav .label-toggle {
     background: linear-gradient(to bottom, #ffffff 0%, #ffffff 20%, transparent 20%, transparent 40%, #ffffff 40%, #ffffff 60%, transparent 60%, transparent 80%, #ffffff 80%, #ffffff 100%);
     cursor: pointer;
@@ -592,7 +606,9 @@ nav .label-toggle {
     margin-top: 1em;
     width: 48px;
 }
+    
   nav .navwrapper {
     display: block;
   }
+    
 }

@@ -612,3 +612,10 @@ nav .label-toggle {
   }
     
 }
+
+@media screen and (max-width: 458px) {
+.headtitle h1 {
+    color: white;
+    font: bold 3em 'Quicksand', sans-serif;
+}
+}

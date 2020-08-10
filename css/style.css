@@ -57,7 +57,7 @@
     align-items: center;
     width: 100%;
     min-height: 100px;
-    background: #71bb80;
+    background: #00b5ce;
     padding: 66px 6px;
 }
 
@@ -77,24 +77,22 @@
 }
 
 #bio h1{
-    color: #258322;
+    color: #006875;
     font: bold 2.3em/1.5em 'Quicksand', sans-serif;
     max-width: 625px;
     text-align: center;
 }
 
 #bio p{
-
     color: white;
     font: 1.3em/1.4em 'Noto Sans JP', sans-serif;
     max-width: 625px;
-/*    margin-right: 80px;*/
     text-align: center;
     padding: 0 12px 0 12px;
 }
 
 #bio a{
-    color: #bcffcb;
+    color: #006875;
     text-decoration: none;
     font: bold 1.2em/1.8em 'Noto Sans JP', sans-serif;
 }

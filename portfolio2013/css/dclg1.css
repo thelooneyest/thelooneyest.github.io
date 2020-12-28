@@ -1,0 +1,76 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+
+}
+#wrapper{
+	width: 952px;
+	background: #fff;
+	margin: 10px auto auto auto;
+}
+
+header{
+	padding-bottom: 10px;
+	font: 54px 'asenineregular', Arial, sans-serif;
+	color: #A28B77;
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+header a{
+	text-decoration: none;
+	color: #A28B77;
+}
+.subtext{
+	color: #C1AD79; 
+	font-size: 24px;
+	letter-spacing: 1px;
+	padding: 0 0 0 14px;
+}
+p{
+	width: 752px;
+	margin: 20px auto;
+}
+p.title{
+	margin: 0;
+	padding: 0;
+}
+p.desc{
+	padding-top: 50px;
+	font: 12pt Arial, sans-serif;
+	color: #666;
+}
+ul{
+	padding: 0px 0px 0px 150px;
+	font: 12pt Arial, sans-serif;
+}
+li{
+	padding: 0px 0px 9px 0px;
+}
+#colorbar{
+	background: #C1AD79;
+	height: 5px;
+	width: 95%;
+	margin: auto;
+}
+img{
+	border: 1px solid black;
+}
+footer{
+	text-align: center;
+	color: #A28B77;
+	font-size: 10px;
+}
+
+@font-face {
+    font-family: 'asenineregular';
+    src: url('asenine_-webfont.eot');
+    src: url('asenine_-webfont.eot?#iefix') format('embedded-opentype'),
+         url('asenine_-webfont.woff') format('woff'),
+         url('asenine_-webfont.ttf') format('truetype'),
+         url('asenine_-webfont.svg#asenineregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

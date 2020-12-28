@@ -1,0 +1,61 @@
+/*
+Load CSS before JavaScript
+*/
+/*
+Slides container
+Important:
+Set the width of your slides container
+Set to display none, prevents content flash
+*/
+.slides_container {
+width: 950px;
+display: none;
+padding-top: 0px;
+}
+/*
+Each slide
+Important:
+Set the width of your slides
+If height not specified height will be set by the slide content
+Set to display block
+*/
+.slides_container div {
+width: 950px;
+height: 480px;
+display: block;
+
+}
+#map{
+	height: 350px;
+}
+/*
+Optional:
+Reset list default style
+*/
+.pagination {
+display: none;
+list-style:none;
+margin:0;
+padding:0;
+clear: both;
+}
+.pagination li{
+list-style-type:none;
+margin:0;
+color: #000;
+display: inline;
+text-decoration: none;
+}
+.pagination li a{
+margin:0;
+padding-right: 6px;
+color: #000;
+text-decoration: none;
+}
+/*
+Optional:
+Show the current slide in the pagination
+*/
+.pagination .current a {
+color:red;
+} 

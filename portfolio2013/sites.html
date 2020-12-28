@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Kevin D. Looney</title>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<link href="css/looney.css" rel="stylesheet" type="text/css">
+ 
+  		<link rel="stylesheet" href="css/galleriffic-2.css" type="text/css" />
+		<script type="text/javascript" src="js/jquery-1.3.2.js"></script>
+		<script type="text/javascript" src="js/jquery.galleriffic.js"></script>
+		<script type="text/javascript" src="js/jquery.opacityrollover.js"></script>
+		<!-- We only want the thunbnails to display when javascript is disabled -->
+		<script type="text/javascript">
+			document.write('<style>.noscript { display: none; }</style>');
+		</script>
+		
+</head>
+
+<body>
+	<div id="wrapper">
+		<header>
+		<p><a href="index.html">Kevin D. Looney</a><span class="subtext">Web Development &amp; Design</span>
+		</p>
+		</header>
+		<div id="colorbar"></div>
+		<nav>
+			<ul>
+				<li><a href="index.html">home</a></li>
+				<li><a href="design.html">design</a></li>
+				<li class="active"><a href="sites.html">websites</a></li>
+				<li><a href="blog.html">blog</a></li>
+				<li><a href="contact.html">contact</a></li>
+			<ul>
+		</nav>
+		<div id="photobar">
+
+		<div id="container">
+
+				<!-- Start Advanced Gallery Html Containers -->
+				<div id="gallery" class="content">
+
+					<div class="slideshow-container">
+						<div id="loading" class="loader"></div>
+						<div id="slideshow" class="slideshow"></div>
+					</div>
+					<div id="caption" class="caption-container"></div>
+				</div>
+				<div id="thumbs" class="navigation">
+					<ul class="thumbs noscript">
+<!-- place for image1 --><li>
+							<a class="thumb" name="DCLawGroup" href="sites/dclg.jpg" alt="finalproject" />
+								<img src="thumbs/dclg_th.jpg" alt="DCLawGroup" />
+							</a>
+							<div class="caption">
+
+								<div class="image-title">DC Law Group PLLC website</div>
+								<div class="image-desc"><a href="http://www.dclglawyers.com/" target="_blank">Click here to view site</a></div>
+							</div>
+						</li>
+<!-- place for image2 --><li>
+							<a class="thumb" name="fivelights" href="sites/fivelights.jpg" alt="fivelights" />
+								<img src="thumbs/fivelights_th.jpg" alt="fivelights" />
+							</a>
+							<div class="caption">
+
+								<div class="image-title">5 Lights Acupuncture (partnership with KILMERHANSEN design)</div>
+								<div class="image-desc"><a href="http://5lightsacupuncture.com/" target="_blank">Click here to view full site</a></div>
+							</div>
+						</li>
+
+						
+<!-- place for image3 --><li>
+							<a class="thumb" name="raven" href="sites/raven.jpg" alt="raven" />
+								<img src="thumbs/raven_th.jpg" alt="raven" />
+							</a>
+							<div class="caption">
+
+								<div class="image-title">Raven Barbershop</div>
+								<div class="image-desc"><a href="http://www.ravenonpine.com" target="_blank">Click here to view full site</a></div>
+							</div>
+						</li>
+
+
+<!-- place for image4 --><li>
+							<a class="thumb" name="dermaspace" href="sites/dermaspace.jpg" alt="dermaspace" />
+								<img src="thumbs/dermaspace_th.jpg" alt="dermaspace" />
+							</a>
+							<div class="caption">
+
+								<div class="image-title">Dermaspace Product Page</div>
+								<div class="image-desc"><a href="http://www.dermaspace.com/skintherapy.html" target="_blank">Click here to view page</a></div>
+							</div>
+						</li>
+
+<!-- place for image5 --><li>
+							<a class="thumb" name="seattlemassage" href="sites/seattlemassage.jpg" alt="dermaspace" />
+								<img src="thumbs/seattlemassage_th.jpg" alt="seattlemassage" />
+							</a>
+							<div class="caption">
+
+								<div class="image-title">The Seattle Massage(partnership with KILMERHANSEN design)</div>
+								<div class="image-desc"><a href="http://www.theseattlemassage.com/" target="_blank">Click here to view site</a></div>
+							</div>
+						</li>
+
+<!-- place for image6 --><li>
+							<a class="thumb" name="finalproject" href="sites/final.jpg" alt="finalproject" />
+								<img src="thumbs/final_th.jpg" alt="finalproject" />
+							</a>
+							<div class="caption">
+
+								<div class="image-title">Final Project for Art Institute 2010</div>
+								<div class="image-desc"><a href="finalproject/index.html" target="_blank">Click here to view site</a></div>
+							</div>
+						</li>
+						
+<!-- place for image7 --><li>
+							<a class="thumb" name="blackdog" href="sites/blackdog.jpg" alt="blackdog" />
+								<img src="thumbs/blackdog_th.jpg" alt="blackdog" />
+							</a>
+							<div class="caption">
+
+								<div class="image-title">Black Dog Direct(partnership with KILMERHANSEN design)</div>
+								<div class="image-desc"><a href="http://www.blackdogdirect.com/" target="_blank">Click here to view full site</a></div>
+							</div>
+						</li>
+
+					</ul>
+				</div>
+				
+				<div style="clear: both;"></div>
+			</div>
+			
+			
+			
+		</div>
+		<div id="colorbar"></div>
+		<footer>
+		<p>&copy; Kevin D. Looney 2013</p>
+		</footer>
+	
+	</div>
+	
+			<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				// We only want these styles applied when javascript is enabled
+				$('div.navigation').css({'width' : '100px', 'float' : 'left'});
+				$('div.content').css('display', 'block');
+
+				// Initially set opacity on thumbs and add
+				// additional styling for hover effect on thumbs
+				var onMouseOutOpacity = 0.67;
+				$('#thumbs ul.thumbs li').opacityrollover({
+					mouseOutOpacity:   onMouseOutOpacity,
+					mouseOverOpacity:  1.0,
+					fadeSpeed:         'fast',
+					exemptionSelector: '.selected'
+				});
+				
+				// Initialize Advanced Galleriffic Gallery
+				var gallery = $('#thumbs').galleriffic({
+					delay:                     2500,
+					numThumbs:                 5,
+					preloadAhead:              10,
+					enableTopPager:            false,
+					enableBottomPager:         true,
+					maxPagesToShow:            7,
+					imageContainerSel:         '#slideshow',
+					controlsContainerSel:      '#controls',
+					captionContainerSel:       '#caption',
+					loadingContainerSel:       '#loading',
+					renderSSControls:          false,
+					renderNavControls:         false,
+					playLinkText:              'Play Slideshow',
+					pauseLinkText:             'Pause Slideshow',
+					prevLinkText:              '&lsaquo; Previous Photo',
+					nextLinkText:              'Next Photo &rsaquo;',
+					nextPageLinkText:          'Next &rsaquo;',
+					prevPageLinkText:          '&lsaquo; Prev',
+					enableHistory:             false,
+					autoStart:                 false,
+					syncTransitions:           true,
+					defaultTransitionDuration: 900,
+					onSlideChange:             function(prevIndex, nextIndex) {
+						// 'this' refers to the gallery, which is an extension of $('#thumbs')
+						this.find('ul.thumbs').children()
+							.eq(prevIndex).fadeTo('fast', onMouseOutOpacity).end()
+							.eq(nextIndex).fadeTo('fast', 1.0);
+					},
+					onPageTransitionOut:       function(callback) {
+						this.fadeTo('fast', 0.0, callback);
+					},
+					onPageTransitionIn:        function() {
+						this.fadeTo('fast', 1.0);
+					}
+				});
+			});
+		</script>
+
+</body>
+
+</html>

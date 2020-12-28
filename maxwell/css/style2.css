@@ -1,0 +1,1075 @@
+
+/*----------------------------- Desktop ----------------------------*/
+
+@media screen and (min-width: 820px) {
+
+/*--------------Top Navigation Menu--------------*/
+nav{
+	float: right;
+}
+nav ul li{
+	padding-right: 15px;
+}
+ul li {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+ul li ul {
+	font-size: .75em;
+  	padding: 0;
+ 	position: absolute;
+ 	top: 13px;
+  	left: 0;
+ 	display: none;
+  	opacity: 0;
+  	visibility: hidden;
+  	width: 180px;
+}
+ul li ul li { 
+  background: #000; 
+  display: block; 
+  color: #fff;
+  width: 180px;
+  padding: 6px;
+  border-top: 1px dotted #fff;
+}
+ul li ul li a{ 
+  display: block;
+}
+ul li ul li:hover{
+	color: #666;
+}
+ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+  z-index: 100;
+  width: 180px;
+}
+nav .topnavlinks{
+	min-width: 400px;
+	width: 40%;
+	margin-top: 25px;
+	float: right;
+	height: 3em;
+	background: #000;
+}
+.topnavlinks a{
+	font: 1.75em 'Oswald', sans-serif;
+	text-decoration: none;
+	color: #fff;
+}
+.dropdown{
+	max-width: 180px;
+	top: 37px;
+}
+.dropdowntitle{
+	font: 18px 'Oswald', sans-serif;
+	background: #666;
+	color: #ccc;
+	padding: 1px 1px 1px 5px;
+}
+.dropdowntitle:hover{
+	font: 18px 'Oswald', sans-serif;
+	background: #666;
+	color: #ccc;
+	padding: 1px;
+	padding: 1px 1px 1px 5px;
+}
+.homebutton{
+	float: left;
+	padding: 10px 0 0 18px;
+	max-width: 400px;
+}
+.homebutton img{
+	width: 100%;
+}
+
+
+
+/*--------------Wrapper--------------*/
+
+
+.wrapper{
+	width: 80%;
+	margin: auto;
+	height: 100%;
+	max-width: 970px;
+	min-width: 800px;
+	min-height: 1150px;
+}
+.wrapper2{
+	width: 80%;
+	margin: auto;
+	max-height: 6685px;
+	max-width: 970px;
+	min-width: 800px;
+}
+.wrapper3{
+	width: 100%;
+	margin: auto;
+	height: 100%;
+	max-width: 970px;
+	min-width: 800px;
+	min-height: 1186px;
+}
+
+.maxtitle{
+	font: 38px 'Oswald', sans-serif;
+	border-bottom: 1px dotted #000;
+	width: 370px;
+}
+
+/*--------------Main Content--------------*/
+
+
+.maincontent{
+	float: left;
+	height: 100%;
+	width: 65%;
+	margin-top: 30px;
+}
+.maininfo{
+	width: 100%;
+	/*background: green;*/
+	height: 100%;
+}
+
+/*--------------Homepage Gallery--------------*/
+
+
+.gallery{
+	/*width: 100%;*/
+	background: teal;
+	/*max-height: 500px;*/
+}
+/*.gallery img{
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+}*/
+.slider_container{
+	/*max-height: 500px;*/
+
+}
+/*#slides ul li img{
+	height: 100%;
+	width: 100%;
+}*/
+
+
+/*--------------Social Link Sidebar--------------*/
+
+.social{
+	width: 35%;
+	height: 100%;
+	/*background: violet;*/
+	float: right;
+}
+.social iframe{
+	margin: 10px 0 5px 12px;
+
+}
+.topsocialtitle{
+	font: 18px 'Oswald', sans-serif;
+	background: #000;
+	color: #fff;
+	padding: 2px 0 2px 8px;
+	margin-top: 10px;
+}
+.socialtitle{
+	font: 18px 'Oswald', sans-serif;
+	background: #000;
+	color: #fff;
+	padding: 2px 0 2px 8px;
+}
+
+
+/*--------------MaxActive Page--------------*/
+
+.maxactive p{
+	font: 1.1em 'Oswald', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+.tankgallery{
+	float: left;
+	height: 100%;
+	width: 100%;
+	margin-top: 30px;
+}
+.mentitle{
+	font: 34px 'Oswald', sans-serif;
+	margin-bottom: 8px;
+}
+.womentitle1{
+	font: 34px 'Oswald', sans-serif;
+	margin-bottom: 8px;
+}
+.womentitle{
+	font: 34px 'Oswald', sans-serif;
+	margin-bottom: 8px;
+	margin-top: 80px;
+}
+.productpic{
+	float: left;
+	width: 60%;
+	/*background: orange;*/
+	height: 710px;
+	margin-right: 20px;
+	margin: auto;
+}
+.productinfo{
+	width: 35%;
+	float: left;
+	min-width: 295px;
+}
+.bottomgallery{
+	height: 325px;
+	width: 100%;
+	clear: both;
+	/*background: maroon;*/
+	padding: 10px;
+}
+.bottomgallery ul{
+	background: #c6c6c6;
+	padding: 5px;
+	width: 647px;
+}
+.bottomgallery ul li{
+	padding: 0 12px 0 30px;
+}
+.bottomgallery img{
+	border: 2px solid #fff;
+}
+.bottomgallery img:hover{
+	border: 2px solid #000;
+}
+.portfoliogallery{
+	/*height: 550px;*/
+	/*width: 100%;*/
+	/*background: gray;*/
+}
+.gallerycontent{
+	float: left;
+	height: 100%;
+	width: 100%;
+	margin-top: 30px;
+}
+.pagetitle{
+	font: 38px 'Oswald', sans-serif;
+	border-bottom: 1px dotted #000;
+	width: 370px;
+}
+.productgallery{
+	height: 1110px;
+	width: 100%;
+	/*background: gray;*/
+}
+
+/*--------------Portfolio--------------*/
+.portfoliogallery{
+	width: 100%;
+}
+.thinpic{
+	width: 100%;
+}
+.thinpic img{
+	width: 431px;
+	height: 647px;
+	/*margin: auto;*/
+}
+.aboutbox img{
+	width: 100%;
+}
+/*--------------Portfolio--------------*/
+
+.aboutbox2{
+	padding: 10px;
+	height: 300px;
+	display: block;
+}
+
+/*--------------Contact Page--------------*/
+
+label{
+	font: 1.45em 'Oswald', sans-serif;
+}
+
+
+/*--------------Footer--------------*/
+
+
+.subscribebox{
+	/*background: cyan;*/
+	font: 1em 'Oswald', sans-serif;
+	color: #fff;
+	display: inline-block;
+	height: 100%;
+	width: 34%;
+	float: right;
+}
+label[for="subscribe"]{
+	display: block;
+}
+input{
+	display: inline;
+	margin-bottom: 15px;
+	padding: 2px;
+}
+.sociallinks{
+	/*background: orange;*/
+	display: inline-block;
+	height: 100%;
+	width: 35%;
+	float: right;
+}
+.sociallinks img{
+	margin: 35px 8px 8px 8px;
+}
+
+
+}
+
+
+/*--------------------- Phones to Tablets --------------------------*/
+/*--------------------- Phones to Tablets --------------------------*/
+/*--------------------- Phones to Tablets --------------------------*/
+/*--------------------- Phones to Tablets --------------------------*/
+/*--------------------- Phones to Tablets --------------------------*/
+/*--------------------- Phones to Tablets --------------------------*/
+/*--------------------- Phones to Tablets --------------------------*/
+/*--------------------- Phones to Tablets --------------------------*/
+/*--------------------- Phones to Tablets --------------------------*/
+/*--------------------- Phones to Tablets --------------------------*/
+
+@media screen and (max-width: 819px) {
+
+/*--------------Top Navigation Menu--------------*/
+
+.toplogo{
+	height: 11em;
+	background: #000;
+}
+.homebutton{
+	float: left;
+	padding: 11px;
+	width: 100%;
+}
+.homebutton img{
+	width: 100%;
+}
+
+.homebutton a img{
+	margin: auto;
+}
+nav .topnavlinks{
+	text-align: center;
+	width: 100%;
+	margin-top: -14px;
+	float: left;
+	height: 3em;
+	background: #000;
+	min-width: 385px;
+	padding: 9px 0 40px 0;
+}
+.topnavlinks a{
+	font: 1.75em 'Oswald', sans-serif;
+	text-decoration: none;
+	color: #fff;
+}
+.topnavlinks{
+	width: 100%;
+
+}
+.topnavlinks li a{
+	padding-right: 12px;
+}
+ul li {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+ul li ul {
+	font-size: .75em;
+  	padding: 0;
+ 	position: absolute;
+ 	top: 51px;
+  	left: 0;
+ 	display: none;
+  	opacity: 0;
+  	/*visibility: hidden;*/
+  	width: 100%;
+}
+ul li ul li { 
+  background: #000; 
+  display: block; 
+  color: #fff;
+  width: 100%;
+  padding: 6px;
+  border-top: 1px dotted #fff;
+}
+ul li ul li a{ 
+  display: block;
+}
+ul li ul li:hover{
+	color: #666;
+}
+/*ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: none;
+  z-index: 100;
+  width: 300px;
+}*/
+.dropdown{
+	max-width: 280px;
+	top: 37px;
+}
+.dropdowntitle{
+	font: 18px 'Oswald', sans-serif;
+	background: #666;
+	color: #ccc;
+	padding: 1px 1px 1px 5px;
+}
+.dropdowntitle:hover{
+	font: 18px 'Oswald', sans-serif;
+	background: #666;
+	color: #ccc;
+	padding: 1px 1px 1px 5px;
+}
+
+/*--------------Wrapper--------------*/
+
+
+.wrapper{
+	width: 100%;
+	margin: 0;
+	height: 100%;
+	/*min-width: 416px;*/
+}
+.wrapper2{
+	width: 100%;
+	margin: auto;
+	height: auto;
+	max-width: 970px;
+	/*min-width: 416px;*/
+}
+.wrapper3{
+	width: 100%;
+	margin: auto;
+	height: auto;
+}
+
+/*--------------Homepage Gallery--------------*/
+
+
+.gallery{
+	width: 100%;
+	background: teal;
+	height: 500px;
+}
+.gallery img{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.slider_container{
+	width: 100%;
+	/*height: 500px;*/
+	position: relative;
+	background: #000;
+	top: 0px;
+	left: 0px;
+	overflow: hidden;
+	margin: auto;
+	max-width: 2000px;
+}
+.slider_container li{
+	list-style: none; 
+}
+.slider_container ul li{
+	/*float: left;*/
+}
+
+/*--------------Main Content--------------*/
+
+
+.maincontent{
+	width: 100%;
+	/*min-width: 416px;*/
+}
+.maingallery{
+	width: 100%;
+	background: teal;
+	height: 50%;
+}
+
+.maininfo{
+	width: 100%;
+	/*background: green;*/
+	height: 50%;
+}
+
+
+/*--------------Social Links Sidebar--------------*/
+
+
+.social{
+	display: none;
+}
+
+
+/*--------------MaxActive Page--------------*/
+
+.maxactive p{
+	font: 1.1em 'Oswald', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+.tankgallery{
+	float: left;
+	height: 100%;
+	width: 100%;
+	margin-top: 30px;
+}
+.mentitle{
+	font: 34px 'Oswald', sans-serif;
+	margin-bottom: 8px;
+}
+.womentitle{
+	font: 34px 'Oswald', sans-serif;
+	margin-bottom: 8px;
+	margin-top: 80px;
+}
+.tankgallery{
+	float: left;
+	height: 100%;
+	width: 100%;
+	margin-top: 30px;
+}
+.productpic{
+	float: left;
+	width: 100%;
+	height: 710px;
+}
+.productinfo{
+	width: 100%;
+	float: left;
+	min-width: 295px;
+}
+.aboutbox img{
+	width: 90%;
+	min-width: 210px;
+}
+.gallerylinks ul img{
+	width: 64px;
+	height: 64px;
+	border: 1px solid #ccc;
+}
+.gallerylinks ul img:hover{
+	width: 64px;
+	height: 64px;
+	border: 1px solid #000;
+}
+.gallerylinks ul img:active{
+	width: 64px;
+	height: 64px;
+	border: 1px solid #000;
+}
+.maxtitle{
+	font: 38px 'Oswald', sans-serif;
+	border-bottom: 1px dotted #000;
+	width: 70%;
+}
+
+
+.bottomgallery{
+	height: 325px;
+	width: 100%;
+	clear: both;
+	padding: 10px;
+}
+
+/*--------------Portfolio--------------*/
+
+.aboutbox2{
+	padding: 10px;
+	height: auto;
+	display: block;
+}
+
+/*--------------Footer--------------*/
+
+
+footer{
+	background: #000;
+	height: 16em;
+	width: 100%;
+	clear: both;
+	bottom: 0;
+	/*min-width: 416px;*/
+}
+.subscribebox{
+	/*background: cyan;*/
+	font: 1.25em 'Oswald', sans-serif;
+	color: #fff;
+	display: block;
+	height: 50%;
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+label[for="subscribe"]{
+	display: block;
+}
+.subscribebox input{
+	margin: auto;
+	width: 200px;
+	height: 40px;
+	display: inline;
+}
+.subscribebox p{
+	text-align: center;
+}
+.sociallinks{
+	/*background: orange;*/
+	display: block;
+	height: 50%;
+	width: 300px;
+	/*min-width: 416px;*/
+	margin: auto;
+}
+.sociallinks img{
+	margin: 10px 15px 10px 4px;
+	display: inline;
+	width: 50px;
+	height: 50px;
+}
+
+
+}
+
+/*--------------------- Mobile Phones --------------------------*/
+/*--------------------- Mobile Phones --------------------------*/
+/*--------------------- Mobile Phones --------------------------*/
+/*--------------------- Mobile Phones --------------------------*/
+/*--------------------- Mobile Phones --------------------------*/
+/*--------------------- Mobile Phones --------------------------*/
+
+@media only screen and (max-device-width: 750px){
+
+/*--------------Top Navigation Menu--------------*/
+.toplogo{
+	height: 11em;
+	background: #000;
+}
+.homebutton{
+	float: left;
+	padding: 8px;
+	width: 100%;
+}
+.homebutton a img{
+	margin: auto;
+}
+nav .topnavlinks{
+	text-align: center;
+	width: 100%;
+	margin-top: -3px;
+	float: left;
+	height: 3em;
+	background: #000;
+	min-width: 320px;
+	padding: 9px 0 40px 0;
+}
+.topnavlinks a{
+	font: 1.5em 'Oswald', sans-serif;
+	text-decoration: none;
+	color: #fff;
+}
+.topnavlinks{
+	width: 100%;
+}
+.topnavlinks li a{
+	padding-right: 12px;
+}
+ul li {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+ul li ul {
+	font-size: .75em;
+  	padding: 0;
+ 	position: absolute;
+ 	top: 51px;
+  	left: 0;
+ 	display: none;
+  	opacity: 0;
+  	/*visibility: hidden;*/
+  	width: 100%;
+}
+ul li ul li { 
+  background: #000; 
+  display: block; 
+  color: #fff;
+  width: 100%;
+  padding: 6px;
+  border-top: 1px dotted #fff;
+}
+ul li ul li a{ 
+  display: block;
+}
+ul li ul li:hover{
+	color: #666;
+}
+/*ul li:hover ul {
+  display: block;
+  opacity: 1;
+  z-index: 100;
+  width: 300px;
+}*/
+/*.dropdown{
+	max-width: 280px;
+	top: 37px;
+}
+.dropdowntitle{
+	font: 18px 'Oswald', sans-serif;
+	background: #666;
+	color: #ccc;
+	padding: 1px 1px 1px 5px;
+}
+.dropdowntitle:hover{
+	font: 18px 'Oswald', sans-serif;
+	background: #666;
+	color: #ccc;
+	padding: 1px 1px 1px 5px;
+}*/
+
+
+/*--------------Wrapper--------------*/
+
+
+.wrapper{
+	width: 100%;
+	margin: 0;
+	height: 100%;
+	/*min-width: 416px;*/
+}
+.wrapper2{
+	width: 100%;
+	margin: auto;
+	height: auto;
+	max-width: 970px;
+	/*min-width: 416px;*/
+}
+.wrapper3{
+	width: 100%;
+	margin: auto;
+	height: auto;
+}
+
+/*--------------Homepage Gallery--------------*/
+
+
+.gallery{
+	width: 100%;
+	background: teal;
+	height: 500px;
+}
+.gallery img{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.slider_container{
+	width: 100%;
+	/*height: 500px;*/
+	position: relative;
+	background: #000;
+	top: 0px;
+	left: 0px;
+	overflow: hidden;
+	margin: auto;
+	max-width: 2000px;
+}
+.slider_container li{
+	list-style: none; 
+}
+.slider_container ul li{
+	/*float: left;*/
+}
+
+/*--------------Main Content--------------*/
+
+.maincontent{
+	width: 100%;
+	/*min-width: 416px;*/
+}
+.maingallery{
+	width: 100%;
+	background: teal;
+	height: 50%;
+}
+
+.maininfo{
+	width: 100%;
+	/*background: green;*/
+	height: 50%;
+}
+
+/*--------------Social Links Sidebar--------------*/
+
+.social{
+	display: none;
+}
+
+/*--------------MaxActive Page--------------*/
+
+.maxactive p{
+	font: 1.1em 'Oswald', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+.tankgallery{
+	float: left;
+	height: 100%;
+	width: 100%;
+	margin-top: 30px;
+}
+.mentitle{
+	font: 34px 'Oswald', sans-serif;
+	margin-bottom: 8px;
+}
+.womentitle{
+	font: 34px 'Oswald', sans-serif;
+	margin-bottom: 8px;
+	margin-top: 80px;
+}
+.tankgallery{
+	float: left;
+	height: 100%;
+	width: 100%;
+	margin-top: 30px;
+}
+.productpic{
+	float: left;
+	width: 100%;
+	/*background: orange;*/
+	height: 710px;
+	/*margin: auto;*/
+}
+.productinfo{
+	width: 100%;
+	float: left;
+	min-width: 295px;
+}
+/*.bottomgallery{
+	height: 350px;
+	width: 100%;
+	clear: both;
+	padding: 10px;
+}*/
+.aboutbox img{
+	width: 90%;
+	min-width: 210px;
+}
+.maxtitle{
+	font: 38px 'Oswald', sans-serif;
+	border-bottom: 1px dotted #000;
+	width: 70%;
+}
+.bottomgallery{
+	height: 325px;
+	width: 100%;
+	clear: both;
+	padding: 10px;
+}
+/*.bottomgallery ul{
+	background: #c6c6c6;
+	padding: 5px;
+	width: 647px;
+}
+.bottomgallery ul li{
+	padding: 0 12px 0 30px;
+}
+.bottomgallery img{
+	border: 2px solid #fff;
+}
+.bottomgallery img:hover{
+	border: 2px solid #000;
+}*/
+
+
+.gallerylinks ul img{
+	width: 60px;
+	height: 60px;
+	border: 1px solid #ccc;
+}
+.gallerylinks ul img:hover{
+	width: 60px;
+	height: 60px;
+	border: 1px solid #000;
+}
+.gallerylinks ul img:active{
+	width: 60px;
+	height: 60px;
+	border: 1px solid #000;
+}
+
+/*--------------Portfolio--------------*/
+
+.aboutbox2{
+	padding: 10px;
+	height: auto;
+	display: block;
+}
+/*--------------Footer--------------*/
+
+
+footer{
+	background: #000;
+	height: 16em;
+	width: 100%;
+	clear: both;
+	bottom: 0;
+}
+.subscribebox{
+	font: 1.25em 'Oswald', sans-serif;
+	color: #fff;
+	display: block;
+	height: 50%;
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+label[for="subscribe"]{
+	display: block;
+}
+.subscribebox input{
+	margin: auto;
+	width: 200px;
+	height: 40px;
+	display: inline;
+}
+.subscribebox p{
+	text-align: center;
+}
+.sociallinks{
+	display: block;
+	height: 50%;
+	width: 300px;
+	margin: auto;
+}
+.sociallinks img{
+	margin: 10px;
+	display: inline;
+	width: 50px;
+	height: 50px;
+}
+
+
+}
+
+
+/*--------------------- For Portfolio Gallery --------------------------*/
+/*--------------------- For Portfolio Gallery --------------------------*/
+/*--------------------- For Portfolio Gallery --------------------------*/
+/*--------------------- For Portfolio Gallery --------------------------*/
+
+
+.rg-image-wrapper{
+	position:relative;
+	padding:20px 30px;
+/*	background:transparent url(../images/black.png) repeat top left;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;*/
+	min-height:20px;
+}
+.rg-image{
+	position:relative;
+	text-align:center;
+	line-height:0px;
+}
+.rg-image img{
+	max-height:100%;
+	max-width:100%;
+}
+.rg-image-nav a{
+	position:absolute;
+	top:0px;
+	left:0px;
+	background: url(../images/portfoliogallery/nav.png) no-repeat -20% 50%;
+	width:28px;
+	height:100%;
+	text-indent:-9000px;
+	cursor:pointer;
+	opacity:0.2;
+	outline:none;
+/*	-moz-border-radius: 10px 0px 0px 10px;
+	-webkit-border-radius: 10px 0px 0px 10px;
+	border-radius: 10px 0px 0px 10px;*/
+}
+.rg-image-nav a.rg-image-nav-next{
+	right:0px;
+	left:auto;
+	background-position:115% 50%;
+/*	-moz-border-radius: 0px 10px 10px 0px;
+	-webkit-border-radius: 0px 10px 10px 0px;
+	border-radius: 0px 10px 10px 0px;*/
+}
+.rg-image-nav a:hover{
+	opacity:0.8;
+}
+.rg-caption {
+	text-align:center;
+	margin-top:15px;
+	position:relative;
+}
+.rg-caption p{
+	font-size:11px;
+	letter-spacing:2px;
+	font-family: 'Trebuchet MS', 'Myriad Pro', Arial, sans-serif;
+	line-height:16px;
+	padding:0 15px;
+	text-transform:uppercase;
+}
+.rg-view{
+	height:30px;
+}
+.rg-view a{
+	display:block;
+	float:right;
+	width:16px;
+	height:16px;
+	margin-right:3px;
+	background:#464646 url(../images/portfoliogallery/views.png) no-repeat top left;
+	border:3px solid #464646;
+	opacity:0.8;
+}
+.rg-view a:hover{
+	opacity:1.0;
+}
+.rg-view a.rg-view-full{
+	background-position:0px 0px;
+}
+.rg-view a.rg-view-selected{
+	background-color:#6f6f6f;
+	border-color:#6f6f6f;
+}
+.rg-view a.rg-view-thumbs{
+	background-position:0px -16px;
+}
+.rg-loading{
+	width:46px;
+	height:46px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	background:#000 url(../images/portfoliogallery/ajax-loader.gif) no-repeat center center;
+	margin:-23px 0px 0px -23px;
+	z-index:100;
+	opacity:0.7;
+}

@@ -1,0 +1,163 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+a, a img{
+	border: 0;
+	outline: none;
+	text-decoration: none;
+}
+body {
+	margin: 0;
+	background: #fff;
+	color: #3A3A3A;
+	font-size: 1.125em/1.62;
+	/*height: 100%;*/
+	/*min-width: 325px;*/
+}
+
+
+/*--------------Top Navigation Menu--------------*/
+
+
+nav ul li{
+	display: inline-block;
+}
+.topnavlinks a:hover{
+	color: #666;
+}
+.toplogo{
+	height: 7em;
+	background: #000;
+}
+
+
+/*--------------Wrapper--------------*/
+
+
+.wrapper{
+	/*background: pink;*/
+	/*height: 100%;*/
+}
+
+
+/*--------------Main Content--------------*/
+
+
+.maincontent{
+	width: 100%;
+	height: 100%;
+}
+.maininfo{
+	padding: 6px;
+}
+.maininfo h1{
+	font: 52px 'Oswald', sans-serif;
+	margin-bottom: 8px;
+	border-bottom: 1px dotted #000;
+	width: 263px;
+}
+.maininfo h2{
+	font: 48px 'Oswald', sans-serif;
+	margin-bottom: 8px;
+}
+.maininfo p{
+	font: 1.4em/1.60 Arial, sans-serif;
+	margin-bottom: 60px;
+}
+.maininfo p span{
+	font: 38px 'Oswald', sans-serif;
+}
+
+
+/*--------------Homepage Gallery--------------*/
+
+
+.gallery{
+	background: teal;
+}
+/*.slider_container{
+	position: relative;
+	overflow: auto;
+	margin: auto;
+	max-width: 2000px;
+}*/
+/*.slider_container li{
+	list-style: none; 
+}*/
+/*.slider_container ul li{
+	float: left;
+}*/
+/*--------------Contact Page--------------*/
+
+
+textarea{
+	margin-bottom: 15px;
+	width: 280px;
+	height: 180px;
+	color: #666;
+}
+fieldset{
+	padding: 16px 6px;
+	background: #ccc;
+	border: none;
+}
+.messagebox{
+	padding: 28px 12px;
+	background: #ccc;
+	border: none;
+	width: 90%;
+	margin: 25px auto;
+}
+
+/*--------------MaxActive Page--------------*/
+
+
+.aboutbox{
+	padding: 10px;
+	height: auto;
+	display: block;
+}
+.maxactive{
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+}
+.maxactive img{
+	width: 100%;
+	margin-top: 10px;
+}
+
+
+
+/*--------------Footer--------------*/
+
+
+footer{
+	background: #000;
+	height: 8em;
+	width: 100%;
+	clear: both;
+	bottom: 0;
+    padding-top: 12px;
+}
+
+#mc_embed_signup{
+	clear:left;
+ 
+}
+.sociallinks img{
+	border: none;
+}
+.sociallinks a{
+	text-decoration: none;
+}
+
+.button{
+    padding: 5px;
+    margin-top: 5px;
+}
+.email{
+    padding: 3px;
+}
